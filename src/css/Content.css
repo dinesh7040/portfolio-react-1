@@ -1,0 +1,72 @@
+.row {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-btn {
+    margin-top: 15px;
+}
+
+.col-md {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: left;
+    font-weight: 600;
+}
+
+.intro-about {
+    margin: 3px;
+    color: #9494a4;
+}
+
+.udl-txt {
+    text-decoration: underline;
+}
+
+.btn-md {
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 4px 2px;
+    font-weight: 600;
+    font-family: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#intro-text {
+    color: #fff;
+}
+
+#intro-text>h2 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+#intro-text>h3 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+#intro-welcome {
+    margin: 10px;
+}
+
+#hire-me-btn {
+    background-color: #7463e0;
+    margin-right: 25px;
+}
+
+#portfolio-btn {
+    background-color: #35314e;
+}
