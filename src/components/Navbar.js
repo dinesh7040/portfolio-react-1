@@ -9,6 +9,7 @@ function NavBar() {
                 <a className="my-projects" href="#my-projects">My Projects</a>
                 <a className="contact-me" href="#contact">Contact Me</a>
             </div>
+
             {/* <div>
                 <button className="navbar-menu" id="menu-button">
                     <nav className="navbar-menu-items" id="navbar-menu-items">
