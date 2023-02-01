@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                // sh "curl -fsSL https://deb.nodesource.com/setup_14.20 | sudo -E bash -"
-                // sh "sudo apt-get install -y nodejs"
+                sh "curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt-get install -y nodejs"
                 // sh "node --version"
                 // sh "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash"
                 // sh 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" [ -s "$NVM_DIR/nvm.sh" ] && /. "$NVM_DIR/nvm.sh"'
