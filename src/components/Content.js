@@ -5,7 +5,7 @@ function Introduction() {
         <div className="row" id="intro">
             <div className="col-md" id="intro-text">
                 <p className="udl-txt" id="intro-welcome">Welcome I'm</p>
-                <h2>Gokulakrishnan Nutz</h2>
+                <h2>Gokulakrishnan velusamy</h2>
                 <h3>Full-stack web and mobile developer</h3>
                 <p className="intro-about">I'm a seasoned full-stack developer</p>
                 <p className="intro-about">I develop applications for Android, iOS, MacOS, Linux, Windows and Web using Flutter, React and PHP</p>
