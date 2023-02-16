@@ -1,4 +1,4 @@
-currentResult.displayName = "Geene-#"+ currentBuild.number
+currentResult.displayName = "Geene-#"+currentBuild.number
 pipeline {
     agent any
     stages {
